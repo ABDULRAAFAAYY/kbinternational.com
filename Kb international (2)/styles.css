@@ -328,7 +328,9 @@ nav:hover::before {
 .hero {
     /* Background with graceful degradation */
     background: url('images/mainhero.png') no-repeat center center/cover;
-
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     /* Layout */
     height: 90vh;
     min-height: 600px;
