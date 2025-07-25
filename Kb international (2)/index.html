@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KB International - Car Exporter</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/kblogo.ico" type="image/x-icon" />
+</head>
+<body>
+    <header>
+            <!-- Top Info Bar -->
+    <div class="top-info-bar">
+        <div class="container top-info-container">
+            <div class="established-info">
+                <span class="established-text">Established 2010</span>
+            </div>
+            <div class="japan-time-info">
+                <div class="time-icon">🕐</div>
+                <span class="japan-time-text">Japan time <span id="japan-time">Loading...</span></span>
+            </div>
+        </div>
+    </div>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"><img src="images/kblogo.png" alt=""></div>
+                <div class="logo-text">
+                    KB<br>
+                    <span>INTERNATIONAL</span>
+                </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+        </button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <!-- <h1>Exporting Premium Vehicles Worldwide</h1>
+                <h1>Bringing you ease across the globe</h1>
+                <h2>From Japan To The World</h2> -->
+                <a href="#inventory" class="btn">Browse Inventory</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="vehicles" id="inventory">
+        <div class="container">
+            <h2 class="section-title">Featured Vehicles</h2>
+<!-- No search filters on index page - shows featured vehicles only -->
+<div class="vehicle-grid"></div>
+        </div>
+     <div class="inventory-button-container">
+    <button class="btn" onclick="window.location.href='inventory.html'">Main Inventory</button>
+</div>
+    </section>
+    
+ <section id="contact-details" class="section-p1">
+    <div class="details">
+        <span>GET IN TOUCH</span>
+        <h2>Visit our location or contact us today</h2>
+        <h3>Head Office</h3>
+        <div>
+            <li>
+                <i class="fa-regular fa-map"></i>
+                <p>1-89-2 HIGASHISUERO YATOMI-SHI, AICHI-KEN,JAPAN</p>
+            </li>
+            <li>
+                <i class="fa-regular fa-envelope"></i>
+                <p>Email: kb.international.jp@gmail.com</p>
+            </li>
+            <li>
+                <i class="fa-solid fa-phone"></i>
+<p>052-325-3461 / 090-2346-1986</p>   
+         </li>
+            <li>
+                <i class="fa-regular fa-clock"></i>
+                <p>08:00 - 20:00, Mon - Sat</p>
+            </li>
+        </div>
+    </div>
+    <div class="map">
+       <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1674580.5404381587!2d134.12940660223197!3d34.93993477411755!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60039cacf528eb21%3A0xd401942cf8af9cf9!2sYatomi%2C%20Aichi%2C%20Japan!5e0!3m2!1sen!2s!4v1752193887291!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    </div>
+</section>
+    
+   <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>KB International</h3>
+                    <p style="color: white;">Car Exporter</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p style="color: white;">Email: kb.international.jp@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="inventory.html">Inventory</a></li>
+                        <li><a href="#services">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>© 2023 KB International Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="contact.html" class="contact-icon" title="Contact Us">
+  <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Contact" />
+</a>
+
+    <script src="data.js"></script>
+    <script src="common.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
