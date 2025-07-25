@@ -86,12 +86,12 @@ const vehicleData = {
         price: 28500,
         mileage: '45,000 km',
         transmission: 'Automatic',
-        image: 'images/Japan/Toyota/landcruiser/landcruiser.jpg',
+        image: 'images/Japan/Toyota/Landcruiser/landcruiser.jpg',
         thumbnails: [
-            'images/Japan/Toyota/landcruiser/landcruiser.jpg',
-            'images/Japan/Toyota/landcruiser/landcruiser-1.jpg',
-            'images/Japan/Toyota/landcruiser/landcruiser-2.jpg',
-            'images/Japan/Toyota/landcruiser/landcruiser-3.jpg'
+            'images/Japan/Toyota/Landcruiser/landcruiser.jpg',
+            'images/Japan/Toyota/Landcruiser/landcruiser-1.jpg',
+            'images/Japan/Toyota/Landcruiser/landcruiser-2.jpg',
+            'images/Japan/Toyota/Landcruiser/landcruiser-3.jpg'
         ],
         related: [2, 3, 4, 5]
     },
