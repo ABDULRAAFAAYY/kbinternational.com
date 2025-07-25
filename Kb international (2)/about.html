@@ -9,6 +9,68 @@
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
 </head>
 <style>
+.services {
+        padding: 80px 0;
+        background: #f8f9fa; /* Fallback background */
+    }
+    
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .service-card {
+        position: relative;
+        min-height: 350px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+        
+        /* Background image properties */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .content-wrapper {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 30px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+        color: white;
+        text-align: center;
+    }
+    
+    .service-icon {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+    
+    .service-card h3 {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .service-card p {
+        opacity: 0.9;
+        line-height: 1.6;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+
+
+    
    .milestone-section {
   background-image: url(https://motors.stylemixthemes.com/elementor-classified-one/wp-content/uploads/sites/23/2016/02/stm-counter.jpg);
   background-repeat: no-repeat;
@@ -84,6 +146,14 @@
   .milestone-card {
     width: 90%;
   }
+    .services-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        
+        .service-card {
+            min-height: 300px;
+        }
 }
 @media (max-width: 477px) {
     .typewriter {
@@ -169,27 +239,38 @@
 </section>
 
 <section class="services" id="services">
-        <div class="container">
-            <h2 class="section-title">Our Services</h2>
-            <div class="services-grid">
-                <div class="service-card">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <!-- Card 1 - Always shows shipping background -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1501700493788-fa1a4fc9fe62?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                <div class="content-wrapper">
                     <div class="service-icon">🚢</div>
                     <h3>Worldwide Shipping</h3>
-                    <p>We handle all logistics to deliver your vehicle anywhere in the world</p>
+                    <!-- <p>We handle all logistics to deliver your vehicle anywhere in the world</p> -->
                 </div>
-                <div class="service-card">
+            </div>
+            
+            <!-- Card 2 - Always shows inspection background -->
+            <div class="service-card" style="background-image: url('https://images.pexels.com/photos/4480537/pexels-photo-4480537.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260')">
+                <div class="content-wrapper">
                     <div class="service-icon">🔍</div>
                     <h3>Quality Inspection</h3>
-                    <p>Every vehicle undergoes rigorous 150-point inspection</p>
+                    <!-- <p>Every vehicle undergoes rigorous 150-point inspection</p> -->
                 </div>
-                <div class="service-card">
+            </div>
+            
+            <!-- Card 3 - Always shows pricing background -->
+            <div class="service-card" style="background-image: url('https://images.unsplash.com/photo-1604594849809-dfedbc827105?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80')">
+                <div class="content-wrapper">
                     <div class="service-icon">💵</div>
                     <h3>Competitive Pricing</h3>
-                    <p>Direct from Japan means better prices for you</p>
+                    <!-- <p>Direct from Japan means better prices for you</p> -->
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+</section>
 
 <section class="milestone-section">
   <div class="milestone-card">
