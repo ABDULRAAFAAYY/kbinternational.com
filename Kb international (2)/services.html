@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="images/kblogo.ico" type="image/x-icon" />
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"  />
+</head>
+<style>
+.services {
+        padding: 80px 0;
+        background: #f8f9fa; /* Fallback background */
+    }
+    
+    .services-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .service-card {
+        position: relative;
+        min-height: 350px;
+        border-radius: 12px;
+        overflow: hidden;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease;
+        
+        /* Background image properties */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .service-card:hover {
+        transform: translateY(-5px);
+    }
+    
+    .content-wrapper {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 30px;
+        background: linear-gradient(to top, rgba(0,0,0,0.8), transparent);
+        color: white;
+        text-align: center;
+    }
+    
+    .service-icon {
+        font-size: 2.5rem;
+        margin-bottom: 15px;
+        filter: drop-shadow(0 2px 4px rgba(0,0,0,0.3));
+    }
+    
+    .service-card h3 {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+        text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+    
+    .service-card p {
+        opacity: 0.9;
+        line-height: 1.6;
+        text-shadow: 0 1px 3px rgba(0,0,0,0.3);
+    }
+
+   .milestone-section {
+  background-image: url(https://motors.stylemixthemes.com/elementor-classified-one/wp-content/uploads/sites/23/2016/02/stm-counter.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 4rem 1rem;
+}
+
+
+.milestone-card {
+  flex: 1 1 250px;
+  /* background: rgba(255, 255, 255, 0.75); */
+  border-radius: 20px;
+  padding: 2rem;
+  text-align: center;
+  /* box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); */
+  /* backdrop-filter: blur(10px); */
+  transition: transform 0.3s ease;
+}
+
+.milestone-card:hover {
+  transform: translateY(-10px) scale(1.03);
+}
+
+.milestone-card img {
+  width: 60px;
+  margin-bottom: 1rem;
+}
+
+.milestone-card h2 {
+  font-size: 2.5rem;
+  color: #0066cc;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.milestone-card p {
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #222;
+}
+.typewriter {
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 3px solid; /* Cursor */
+    animation: 
+      typing 3s steps(40, end) forwards,
+      blink-caret 0.75s step-end infinite;
+    width: 0;
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: black; }
+  }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .milestone-section {
+    flex-direction: column;
+    align-items: center;
+  }
+.services-grid {
+            grid-template-columns: 1fr;
+            gap: 20px;
+        }
+        
+        .service-card {
+            min-height: 300px;
+        }
+  .milestone-card {
+    width: 90%;
+  }
+}
+@media (max-width: 477px) {
+    .typewriter {
+      white-space:inherit; /* Allow text wrapping */
+      border-right: none; /* Remove cursor on small screens */
+      /* animation: none; Disable animation on small screens */
+      width: auto; /* Full width */
+    }
+    @keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: black; }
+  }
+}
+
+</style>
+<body>
+     <header>
+            <!-- Top Info Bar -->
+    <div class="top-info-bar">
+        <div class="container top-info-container">
+            <div class="established-info">
+                <span class="established-text">Established 2010</span>
+            </div>
+            <div class="japan-time-info">
+                <div class="time-icon">🕐</div>
+                <span class="japan-time-text">Japan time <span id="japan-time">Loading...</span></span>
+            </div>
+        </div>
+    </div>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon"><img src="images/kblogo.png" alt=""></div>
+                <div class="logo-text">
+                    KB<br>
+                    <span>INTERNATIONAL</span>
+                </div>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+            <span class="toggle-bar"></span>
+        </button>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="inventory.html">Inventory</a></li>
+                    <li><a class="active"  href="services.html">Services</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+<section class="services" id="services">
+    <div class="container">
+        <h2 class="section-title">Our Services</h2>
+        <div class="services-grid">
+            <!-- Card 1 - Always shows shipping background -->
+            <div class="service-card" style="background-image: url('images/shipping.webp')">
+                <div class="content-wrapper">
+                    <!-- <div class="service-icon">🚢</div> -->
+                    <h3>Worldwide Shipping</h3>
+                    <!-- <p>We handle all logistics to deliver your vehicle anywhere in the world</p> -->
+                </div>
+            </div>
+            
+            <!-- Card 2 - Always shows inspection background -->
+            <div class="service-card" style="background-image: url('images/inspection.jpg')">
+                <div class="content-wrapper">
+                    <!-- <div class="service-icon">🔍</div> -->
+                    <h3>Quality Inspection</h3>
+                    <!-- <p>Every vehicle undergoes rigorous 150-point inspection</p> -->
+                </div>
+            </div>
+            
+            <!-- Card 3 - Always shows pricing background -->
+            <div class="service-card" style="background-image: url('images/pricy.jpg'); background-size: cover;">
+                <div class="content-wrapper">
+                    <!-- <div class="service-icon">💵</div> -->
+                    <h3>Competitive Pricing</h3>
+                    <!-- <p>Direct from Japan means better prices for you</p> -->
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="milestone-section">
+  <div class="milestone-card">
+    <!-- <img src="https://cdn-icons-png.flaticon.com/512/743/743009.png" alt="Dealership Icon" /> -->
+    <h2  style="color: white; font-weight: bold;"><span class="counter" data-target="2000">0</span>+</h2>
+    <p style="color: white; font-weight: bold;">Dealerships</p>
+  </div>
+  <div class="milestone-card">
+    <!-- <img src="https://cdn-icons-png.flaticon.com/512/847/847969.png" alt="Clients Icon" /> -->
+    <h2 style="color: whitesmoke; font-weight: bold;"><span class="counter" data-target="400">0</span>+</h2>
+    <p style="color: white; font-weight: bold;">Visitors per day</p>
+  </div>
+  <div class="milestone-card">
+    <!-- <img src="https://cdn-icons-png.flaticon.com/512/743/743007.png" alt="Car Icon" width="60" /> -->
+
+    <h2 style="color: white; "><span class="counter" data-target="1500">0</span>+</h2>
+    <p style="color: white;">Cars Sold</p>
+  </div>
+</section>
+
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>KB International</h3>
+                    <p style="color: white;">Car Exporter</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p style="color: white;">Email: kb.international.jp@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="inventory.html">Inventory</a></li>
+                        <li><a href="services.html">Services</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p style="color: white;">© 2023 KB International Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <a href="contact.html" class="contact-icon" title="Contact Us">
+  <img src="https://cdn-icons-png.flaticon.com/512/561/561127.png" alt="Contact" />
+</a>
+
+    <script src="script.js"></script>
+  <script src="common.js"></script>
+   <script>
+  const counters = document.querySelectorAll('.counter');
+  const speed = 100;
+
+  counters.forEach(counter => {
+    const updateCount = () => {
+      const target = +counter.getAttribute('data-target');
+      const count = +counter.innerText;
+      const increment = Math.ceil(target / speed);
+
+      if (count < target) {
+        counter.innerText = count + increment;
+        setTimeout(updateCount, 20);
+      } else {
+        counter.innerText = target;
+      }
+    };
+
+    const observer = new IntersectionObserver(entries => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          updateCount();
+          observer.unobserve(counter);
+        }
+      });
+    }, { threshold: 0.7 });
+
+    observer.observe(counter);
+  });
+</script>
+
+
+</body>
+</html>
