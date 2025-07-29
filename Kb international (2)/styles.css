@@ -1072,64 +1072,7 @@ align-items: flex-start;
 }
 
 /* Very small devices (iPhone SE and smaller) */
-@media (max-width: 375px) {
-    .section-p1{
-        padding: 15px;
-    }
-    
-    /* Even smaller top info bar */
-    .top-info-bar {
-        padding: 3px 0;
-    }
-    
-    .established-info .established-text,
-    .japan-time-text {
-        font-size: 0.65rem;
-    }
-    
-    /* Adjust header */
-    header {
-        top: 20px;
-    }
-    
-    .hero {
-        margin-top: 75px;
-    }
-    
-    h1{
-        font-size: 32px;
-    }
-    h2{
-        font-size: 28px;
-    }
-    
-    /* Logo even smaller */
-    .logo-icon img {
-        height: 35px;
-    }
-    
-    .logo-text {
-        font-size: 0.8rem;
-    }
-    
-    /* Hamburger menu adjustments */
-    .nav-toggle.active .toggle-bar:nth-child(1) {
-        transform: translateY(7px) rotate(45deg);
-    }
-    
-    .nav-toggle.active .toggle-bar:nth-child(3) {
-        transform: translateY(-7px) rotate(-45deg);
-    }
-    
-    nav ul {
-        top: 60px;
-        height: calc(100vh - 60px);
-    }
-    .contact-details {
-        flex-direction: column;
-        align-items: center;
-    }
-}
+
 
 /* about */
 #about-head{
