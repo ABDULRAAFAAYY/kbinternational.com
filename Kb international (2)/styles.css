@@ -338,10 +338,14 @@ nav:hover::before {
     margin-top: 120px;
     position: relative;
     
-    /* Performance optimizations */
-    background-attachment: fixed;
+   background-attachment: scroll;
     will-change: transform;
     backface-visibility: hidden;
+
+    /* iOS fix */
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 .hero-content {
