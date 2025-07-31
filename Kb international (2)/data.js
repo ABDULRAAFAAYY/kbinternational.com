@@ -215,7 +215,7 @@ const vehicleData = {
     
     // Featured vehicles for index page (first 6 cars)
     getFeaturedVehicles() {
-        return this.vehicles.slice(0, 6);
+        return this.vehicles.slice(0, 4);
     },
     
     // Get all vehicles for inventory page
