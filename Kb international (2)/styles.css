@@ -349,14 +349,18 @@ nav:hover::before {
 }
 
 .hero-content {
-    max-width: 800px;
-    margin: 0 auto;
+    position: absolute;
+    top: 30%; /* Adjust this to fine-tune vertical placement */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Optional override for visibility */
 }
 
 .hero h1 {
     font-size: 2.5rem;
     margin-bottom: 20px;
-    color: #8b0101;
+    color: #e60023; /* Optional - or use white (#fff) if needed for contrast */
 }
 
 .hero h2 {
