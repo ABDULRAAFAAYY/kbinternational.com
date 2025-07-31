@@ -170,105 +170,9 @@ const vehicleData = {
         'images/Japan/Toyota/Passo/Passo-4.jpg'
     ],
     related: [1,3,6,7]
-}
-,
-    {
-        id: 6,
-        country: 'USA',
-        make: 'Ford',
-        model: 'Focus',
-        grade: 'ST-Line',
-        year: 2019,
-        price: 21000,
-        mileage: '28,000 km',
-        transmission: 'Automatic',
-        image: 'images/US/Ford/Focus/Focus-1.jpg',
-        thumbnails: [
-            'images/US/Ford/Focus/Focus-1.jpg',
-            'images/US/Ford/Focus/Focus-2.jpg',
-            'images/US/Ford/Focus/Focus-3.webp',
-            'images/US/Ford/Focus/Focus-4.webp'
-        ],
-        related: [1, 2, 3, 4]
-    },
-    {
-        id: 7,
-        country: 'Japan',
-        make: 'Honda',
-        model: 'Civic',
-        grade: 'Type R',
-        year: 2020,
-        price: 23500,
-        mileage: '25,000 km',
-        transmission: 'Manual',
-        image: 'images/Japan/Honda/Civic/Civic-1.jpg',
-        thumbnails: [
-            'images/Japan/Honda/Civic/Civic-1.jpg',
-            'images/Japan/Honda/Civic/Civic-2.jpg',
-            'images/Japan/Honda/Civic/Civic-3.jpg',
-            'images/Japan/Honda/Civic/Civic-4.jpg'
-        ],
-        related: [1, 2, 7, 8]
-    },
-    {
-        id: 8,
-        country: 'Germany',
-        make: 'Bmw',
-        model: '3 Series',
-        grade: 'M Sport',
-        year: 2022,
-        price: 45000,
-        mileage: '15,000 km',
-        transmission: 'Automatic',
-        image: 'images/Germany/BMW/3Series/3Series-1.jpg',
-        thumbnails: [
-            'images/Germany/BMW/3Series/3Series-1.jpg',
-            'images/Germany/BMW/3Series/3Series-2.jpg',
-            'images/Germany/BMW/3Series/3Series-3.jpg',
-            'images/Germany/BMW/3Series/3Series-4.jpg'
-        ],
-        related: [3, 4, 5, 6]
-    },
-    {
-        id: 9,
-        country: 'Japan',
-        make: 'Mazda',
-        model: 'Cx-5',
-        grade: 'Takumi',
-        year: 2021,
-        price: 32000,
-        mileage: '20,000 km',
-        transmission: 'Automatic',
-        image: 'images/Japan/Mazda/CX5/CX5-1.jpg',
-        thumbnails: [
-            'images/Japan/Mazda/CX5/CX5-1.jpg',
-            'images/Japan/Mazda/CX5/CX5-2.jpg',
-            'images/Japan/Mazda/CX5/CX5-3.jpg',
-            'images/Japan/Mazda/CX5/CX5-4.jpg'
-        ],
-        related: [1, 2, 9, 10]
-    },
-    {
-        id: 9,
-        country: 'England',
-        make: 'Jaguar',
-        model: 'F-Pace',
-        grade: 'R-Dynamic',
-        year: 2020,
-        price: 55000,
-        mileage: '22,000 km',
-        transmission: 'Automatic',
-        image: 'images/England/Jaguar/F-Pace/F-Pace-1.jpg',
-        thumbnails: [
-            'images/England/Jaguar/F-Pace/F-Pace-1.jpg',
-            'images/England/Jaguar/F-Pace/F-Pace-2.jpg',
-            'images/England/Jaguar/F-Pace/F-Pace-3.jpg',
-            'images/England/Jaguar/F-Pace/F-Pace-4.jpg'
-        ],
-        related: [3, 4, 10, 11]
-    },
+},
        {
-    id: 10,
+    id: 6,
     country: 'Japan',
     make: 'Toyota',
     model: 'Aqua',
@@ -284,10 +188,11 @@ const vehicleData = {
         'images/Japan/Toyota/Aqua/Aqua-3.jpg',
         'images/Japan/Toyota/Aqua/Aqua-4.jpg'
     ],
-    related: [1,3,5,7]
+    related: [1,2,3,4]
 },
+   
 {
-    id: 19,
+    id: 7,
     country: 'Japan',
     make: 'Toyota',
     model: 'Alphard',
