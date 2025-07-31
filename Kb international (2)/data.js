@@ -76,7 +76,6 @@ const vehicleData = {
     
     // All vehicles data - will be used by inventory page
    vehicles: [
-    {
        {
     id: 1,
     country: 'Japan',
