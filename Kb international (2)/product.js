@@ -30,7 +30,7 @@ function loadCarDetails() {
   document.getElementById('car-grade').textContent = `Grade: ${car.grade}`;
   document.getElementById('car-mileage').textContent = `Mileage: ${car.mileage}`;
   document.getElementById('car-transmission').textContent = `Transmission: ${car.transmission}`;
-  document.getElementById('car-price').textContent = `Price: $${car.price.toLocaleString()}`;
+  document.getElementById('car-price').textContent = `Price: ¥${car.price.toLocaleString()} (Prices are negotiable) `;
 
   // Load thumbnails (4 images)
   loadThumbnails(car.thumbnails);
@@ -46,7 +46,7 @@ function loadThumbnails(thumbnails) {
   const container = document.getElementById('car-thumbnails');
   container.innerHTML = '';
 
-  thumbnails.slice(0, 4).forEach(thumb => {
+  thumbnails.slice(0, 5).forEach(thumb => {
     const img = document.createElement('img');
     img.src = thumb;
     img.alt = "Thumbnail";
