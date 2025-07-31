@@ -77,140 +77,104 @@ const vehicleData = {
     // All vehicles data - will be used by inventory page
    vehicles: [
     {
-        id: 1,
-        country: 'Japan',
-        make: 'Toyota',
-        model: 'Land Cruiser',
-        grade: 'Heritage',
-        year: 2020,
-        price: 28500,
-        mileage: '45,000 km',
-        transmission: 'Automatic',
-        image: 'images/Japan/Toyota/Landcruiser/landcruiser.jpg',
-        thumbnails: [
-            'images/Japan/Toyota/Landcruiser/landcruiser.jpg',
-            'images/Japan/Toyota/Landcruiser/landcruiser-1.jpg',
-            'images/Japan/Toyota/Landcruiser/landcruiser-2.jpg',
-            'images/Japan/Toyota/Landcruiser/landcruiser-3.jpg'
-        ],
-        related: [2, 3, 4, 5]
-    },
-    {
-        id: 2,
-        country: 'Japan',
-        make: 'Nissan',
-        model: 'Skyline',
-        grade: 'GT-R Premium',
-        year: 2018,
-        price: 24900,
-        mileage: '32,000 km',
-        transmission: 'Automatic',
-        image: 'images/Japan/Nissan/Skyline/Skyline-1.jpg',
-        thumbnails: [
-            'images/Japan/Nissan/Skyline/Skyline-1.jpg',
-            'images/Japan/Nissan/Skyline/Skyline-2.jpg',
-            'images/Japan/Nissan/Skyline/Skyline-3.jpg',
-            'images/Japan/Nissan/Skyline/Skyline-4.jpg'
-        ],
-        related: [1, 3, 4, 5]
-    },
-    {
-        id: 3,
-        country: 'Germany',
-        make: 'Mercedes-Benz',
-        model: 'C-Class',
-        grade: 'AMG Line',
-        year: 2021,
-        price: 42000,
-        mileage: '18,000 km',
-        transmission: 'Automatic',
-        image: 'images/Germany/Mercedez-Benz/C-Class/C-Class-1.jpg',
-        thumbnails: [
-            'images/Germany/Mercedez-Benz/C-Class/C-Class-1.jpg',
-            'images/Germany/Mercedez-Benz/C-Class/C-Class-2.jpg',
-            'images/Germany/Mercedez-Benz/C-Class/C-Class-3.jpg',
-            'images/Germany/Mercedez-Benz/C-Class/C-Class-4.jpg'
-        ],
-        related: [1, 2, 4, 5]
-    },
-    {
-        id: 4,
-        country: 'England',
-        make: 'Rolls-Royce',
-        model: 'Phantom',
-        grade: 'EWB Luxury',
-        year: 2020,
-        price: 450000,
-        mileage: '9,000 km',
-        transmission: 'Automatic',
-        image: 'images/England/Rolls-Royce/Phantom/Phantom-1.jpg',
-        thumbnails: [
-            'images/England/Rolls-Royce/Phantom/Phantom-1.jpg',
-            'images/England/Rolls-Royce/Phantom/Phantom-2.jpg',
-            'images/England/Rolls-Royce/Phantom/Phantom-3.jpg',
-            'images/England/Rolls-Royce/Phantom/Phantom-4.jpg'
-        ],
-        related: [1, 2, 3, 5]
-    },
-    {
-        id: 5,
-        country: 'France',
-        make: 'Peugeot',
-        model: '2008',
-        grade: 'GT Line',
-        year: 2022,
-        price: 27000,
-        mileage: '12,000 km',
-        transmission: 'Automatic',
-        image: 'images/France/Peugeot/2008/2008-1.jpg',
-        thumbnails: [
-            'images/France/Peugeot/2008/2008-1.jpg',
-            'images/France/Peugeot/2008/2008-2.jpg',
-            'images/France/Peugeot/2008/2008-3.jpg',
-            'images/France/Peugeot/2008/2008-4.jpg'
-        ],
-        related: [1, 2, 3, 4]
-    },
+       {
+    id: 1,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Crown',
+    grade: 'Z',
+    year: 2024,
+    price: 7800000,
+    mileage: '3,000 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Crown/Crown-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Crown/Crown-1.jpg',
+        'images/Japan/Toyota/Crown/Crown-2.jpg',
+        'images/Japan/Toyota/Crown/Crown-3.jpg',
+        'images/Japan/Toyota/Crown/Crown-4.jpg'
+    ],
+    related: [14, 15, 16, 17]
+},
+{
+    id: 2,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Estima',
+    grade: 'Aeras Premium',
+    year: 2017,
+    price: 1850000,
+    mileage: '82,000 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Estima/Estima-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Estima/Estima-1.jpg',
+        'images/Japan/Toyota/Estima/Estima-2.jpg',
+        'images/Japan/Toyota/Estima/Estima-3.jpg',
+        'images/Japan/Toyota/Estima/Estima-4.jpg'
+    ],
+    related: [1,3,5,7]
+},
+{
+    id: 3,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Harrier',
+    grade: 'Z',
+    year: 2023,
+    price: 4400000,
+    mileage: '13,000 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Harrier/Harrier-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Harrier/Harrier-1.jpg',
+        'images/Japan/Toyota/Harrier/Harrier-2.jpg',
+        'images/Japan/Toyota/Harrier/Harrier-3.jpg',
+        'images/Japan/Toyota/Harrier/Harrier-4.jpg'
+    ],
+    related: [13, 14, 16, 17]
+},
+{
+    id: 4,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Land Cruiser',
+    grade: 'ZX',
+    year: 2024,
+    price: 9800000,
+    mileage: '14,000 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Land Cruiser/Land Cruiser-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Land Cruiser/Land Cruiser-1.jpg',
+        'images/Japan/Toyota/Land Cruiser/Land Cruiser-2.jpg',
+        'images/Japan/Toyota/Land Cruiser/Land Cruiser-3.jpg',
+        'images/Japan/Toyota/Land Cruiser/Land Cruiser-4.jpg'
+    ],
+    related: [1,3,5,7]
+},
+{
+    id: 5,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Passo',
+    grade: 'Moda',
+    year: 2023,
+    price: 1400000,
+    mileage: '13,000 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Passo/Passo-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Passo/Passo-1.jpg',
+        'images/Japan/Toyota/Passo/Passo-2.jpg',
+        'images/Japan/Toyota/Passo/Passo-3.jpg',
+        'images/Japan/Toyota/Passo/Passo-4.jpg'
+    ],
+    related: [1,3,6,7]
+}
+,
     {
         id: 6,
-        country: 'Italy',
-        make: 'Ferrari',
-        model: 'SF90',
-        grade: 'Stradale',
-        year: 2023,
-        price: 510000,
-        mileage: '3,000 km',
-        transmission: 'Automatic',
-        image: 'images/Italy/Ferrari/SF90/SF90-1.jpg',
-        thumbnails: [
-            'images/Italy/Ferrari/SF90/SF90-1.jpg',
-            'images/Italy/Ferrari/SF90/SF90-2.jpg',
-            'images/Italy/Ferrari/SF90/SF90-3.jpg',
-            'images/Italy/Ferrari/SF90/SF90-4.jpg'
-        ],
-        related: [1, 2, 3, 4]
-    },
-    {
-        id: 7,
-        country: 'Sweden',
-        make: 'Volvo',
-        model: 'S60',
-        grade: 'R-Design',
-        year: 2021,
-        price: 35000,
-        mileage: '14,500 km',
-        transmission: 'Automatic',
-        image: 'images/Sweden/Volvo/S60/S60-1.jpg',
-        thumbnails: [
-            'images/Sweden/Volvo/S60/S60-1.jpg',
-            'images/Sweden/Volvo/S60/S60-2.jpg',
-            'images/Sweden/Volvo/S60/S60-3.jpg',
-            'images/Sweden/Volvo/S60/S60-4.jpg'
-        ],
-        related: [1, 2, 3, 4]
-    },
-    {
-        id: 8,
         country: 'USA',
         make: 'Ford',
         model: 'Focus',
@@ -229,7 +193,7 @@ const vehicleData = {
         related: [1, 2, 3, 4]
     },
     {
-        id: 9,
+        id: 7,
         country: 'Japan',
         make: 'Honda',
         model: 'Civic',
@@ -248,7 +212,7 @@ const vehicleData = {
         related: [1, 2, 7, 8]
     },
     {
-        id: 10,
+        id: 8,
         country: 'Germany',
         make: 'Bmw',
         model: '3 Series',
@@ -267,7 +231,7 @@ const vehicleData = {
         related: [3, 4, 5, 6]
     },
     {
-        id: 11,
+        id: 9,
         country: 'Japan',
         make: 'Mazda',
         model: 'Cx-5',
@@ -286,7 +250,7 @@ const vehicleData = {
         related: [1, 2, 9, 10]
     },
     {
-        id: 12,
+        id: 9,
         country: 'England',
         make: 'Jaguar',
         model: 'F-Pace',
@@ -303,7 +267,46 @@ const vehicleData = {
             'images/England/Jaguar/F-Pace/F-Pace-4.jpg'
         ],
         related: [3, 4, 10, 11]
-    }
+    },
+       {
+    id: 10,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Aqua',
+    grade: 'Z',
+    year: 2024,
+    price: 2450000,
+    mileage: '2,000 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Aqua/Aqua-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Aqua/Aqua-1.jpg',
+        'images/Japan/Toyota/Aqua/Aqua-2.jpg',
+        'images/Japan/Toyota/Aqua/Aqua-3.jpg',
+        'images/Japan/Toyota/Aqua/Aqua-4.jpg'
+    ],
+    related: [1,3,5,7]
+},
+{
+    id: 19,
+    country: 'Japan',
+    make: 'Toyota',
+    model: 'Alphard',
+    grade: 'Z',
+    year: 2024,
+    price: 8500000,
+    mileage: '150 km',
+    transmission: 'Automatic',
+    image: 'images/Japan/Toyota/Alphard/Alphard-1.jpg',
+    thumbnails: [
+        'images/Japan/Toyota/Alphard/Alphard-1.jpg',
+        'images/Japan/Toyota/Alphard/Alphard-2.jpg',
+        'images/Japan/Toyota/Alphard/Alphard-3.jpg',
+        'images/Japan/Toyota/Alphard/Alphard-4.jpg'
+    ],
+    related: [1,3,5,7]
+}
+
 ],
     
     // Featured vehicles for index page (first 6 cars)
