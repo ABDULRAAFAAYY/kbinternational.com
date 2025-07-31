@@ -94,7 +94,7 @@ const vehicleData = {
         'images/Japan/Toyota/Crown/Crown-3.jpg',
         'images/Japan/Toyota/Crown/Crown-4.jpg'
     ],
-    related: [14, 15, 16, 17]
+    related: [1,3,5,7]
 },
 {
     id: 2,
