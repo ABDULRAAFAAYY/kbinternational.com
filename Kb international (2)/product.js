@@ -30,7 +30,7 @@ function loadCarDetails() {
   document.getElementById('car-grade').textContent = `Grade: ${car.grade}`;
   document.getElementById('car-mileage').textContent = `Mileage: ${car.mileage}`;
   document.getElementById('car-transmission').textContent = `Transmission: ${car.transmission}`;
-  document.getElementById('car-price').textContent = `Price: ¥${car.price.toLocaleString()} (Prices are negotiable) `;
+  document.getElementById('car-price').textContent = `Price: $${car.price.toLocaleString()} (Prices are negotiable) `;
 
   // Load thumbnails (4 images)
   loadThumbnails(car.thumbnails);
@@ -74,7 +74,7 @@ function loadRelatedCars(relatedIds) {
                     <p><strong>Grade:</strong> ${relatedCar.grade}</p>
                     <p><strong>Mileage:</strong> ${relatedCar.mileage}</p>
                     <p><strong>Transmission:</strong> ${relatedCar.transmission}</p>
-                    <div class="vehicle-price">¥${relatedCar.price.toLocaleString()} (Prices are negotiable)</div>
+                    <div class="vehicle-price">$${relatedCar.price.toLocaleString()} (Prices are negotiable)</div>
                     <a href="product.html?carId=${relatedCar.id}" class="btn">View Details</a>
                 </div>
       `;
