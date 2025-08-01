@@ -357,18 +357,17 @@ nav:hover::before {
     color: white; /* Optional override for visibility */
 }
 
-.hero-heading {
-  white-space: nowrap;            /* Prevent line breaks */
-  font-size: 1.5rem;              /* Adjust to fit mobile */
-  max-width: 100%;                /* Ensure it stays within container */
-  text-align: center;             /* Centered text */
-  margin: 0 auto;                 /* Center horizontally */
-  position: absolute;
-  top: 40%;                       /* Adjust this as needed */
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: red;                     /* Your original color */
+.hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #e60023; /* Optional - or use white (#fff) if needed for contrast */
 }
+
+.hero h2 {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    color: #f70000;
+}}
 
 
 }
