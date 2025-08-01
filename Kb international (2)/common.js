@@ -110,7 +110,7 @@ function displayVehicles(vehiclesToDisplay, gridSelector = '.vehicle-grid') {
                 <p><strong>Grade:</strong> ${vehicle.grade}</p>
                 <p><strong>Mileage:</strong> ${vehicle.mileage}</p>
                 <p><strong>Transmission:</strong> ${vehicle.transmission}</p>
-                <div class="vehicle-price">$${vehicle.price.toLocaleString()}</div>
+                <div class="vehicle-price">$${vehicle.price.toLocaleString()} (Prices are negotiable)</div>
                 <a href="product.html?carId=${vehicle.id}" class="btn">View Details</a>
             </div>
         `;
