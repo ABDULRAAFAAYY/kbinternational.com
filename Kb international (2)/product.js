@@ -74,7 +74,7 @@ function loadRelatedCars(relatedIds) {
                     <p><strong>Grade:</strong> ${relatedCar.grade}</p>
                     <p><strong>Mileage:</strong> ${relatedCar.mileage}</p>
                     <p><strong>Transmission:</strong> ${relatedCar.transmission}</p>
-                    <div class="vehicle-price">$${relatedCar.price.toLocaleString()}</div>
+                    <div class="vehicle-price">¥${relatedCar.price.toLocaleString()}</div>
                     <a href="product.html?carId=${relatedCar.id}" class="btn">View Details</a>
                 </div>
       `;
