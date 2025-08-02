@@ -30,7 +30,7 @@ function loadCarDetails() {
   document.getElementById('car-grade').textContent = `Grade: ${car.grade}`;
   document.getElementById('car-mileage').textContent = `Mileage: ${car.mileage}`;
   document.getElementById('car-transmission').textContent = `Transmission: ${car.transmission}`;
-  document.getElementById('car-price').textContent = `Price: $${car.price.toLocaleString()} <br> CNF (FIND QUOTE) `;
+  document.getElementById('car-price').textContent = `Price: $${car.price.toLocaleString()}  CNF (FIND QUOTE) `;
 
   // Load thumbnails (4 images)
   loadThumbnails(car.thumbnails);
@@ -85,4 +85,5 @@ function loadRelatedCars(relatedIds) {
     }
   });
 }
+
 
