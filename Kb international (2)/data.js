@@ -233,7 +233,7 @@ const vehicleData = {
         'images/Japan/Honda/Civic/Civic-3.jpg',
         'images/Japan/Honda/Civic/Civic-2.jpg'
     ],
-    related: [2, 4, 6, 8]
+    related: [2, 4, 6, 9]
 },
        {
     id: 9,
@@ -250,7 +250,7 @@ const vehicleData = {
         'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
         'images/Japan/Honda/Civic-EK4/Civic-EK4-2.jpg'
     ],
-    related: [2, 5, 7, 9]
+    related: [2, 5, 7, 8]
 }
 
 
@@ -270,6 +270,7 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
 
 
