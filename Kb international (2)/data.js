@@ -217,7 +217,50 @@ const vehicleData = {
         'images/Japan/Toyota/Alphard/Alphard-5.jpg'  
     ],
     related: [1,3,5,7]
+},
+       {
+    id: 8,
+    country: 'Japan',
+    make: 'Honda',
+    model: 'Civic',
+    grade: 'Vi',
+    year: 1995,
+    price: "Ask", // you can fill this in
+    mileage: null, // if available
+    transmission: 'FAT (Automatic)',
+    color: 'Silver',
+    engine: '1,500 cc',
+    drive: 'FF',
+    image: 'images/Japan/Honda/Civic/Civic-1.jpg',
+    thumbnails: [
+        'images/Japan/Honda/Civic/Civic-1.jpg',
+        'images/Japan/Honda/Civic/Civic-2.jpg'
+    ],
+    related: [2, 4, 6, 8]
+},
+       {
+    id: 9,
+    country: 'Japan',
+    make: 'Honda',
+    model: 'Civic',
+    grade: 'SiR (EK4)',
+    year: 1998,
+    price: Ask, // fill in later
+    mileage: null, // add if available
+    transmission: 'F5 (Manual)',
+    color: 'Black',
+    engine: '1,600 cc',
+    drive: 'FF',
+    features: ['AC'],
+    image: 'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
+    thumbnails: [
+        'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
+        'images/Japan/Honda/Civic-EK4/Civic-EK4-2.jpg'
+    ],
+    related: [2, 5, 7, 9]
 }
+
+
 
 ],
     
@@ -234,3 +277,4 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
