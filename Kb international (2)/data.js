@@ -94,7 +94,7 @@ const vehicleData = {
         'images/Japan/Toyota/Crown/Crown-4.jpg',
         'images/Japan/Toyota/Crown/Crown-5.jpg'
     ],
-    related: [1,3,5,7]
+    related: [1,3,5,8]
 },
 {
     id: 2,
@@ -114,7 +114,7 @@ const vehicleData = {
         'images/Japan/Toyota/Estima/Estima-4.jpg',
         'images/Japan/Toyota/Estima/Estima-5.jpg'
     ],
-    related: [1,3,5,7]
+    related: [1,3,5,9]
 },
 {
     id: 3,
@@ -134,7 +134,7 @@ const vehicleData = {
         'images/Japan/Toyota/Harrier/Harrier-4.jpg',
         'images/Japan/Toyota/Harrier/Harrier-5.jpg'
     ],
-    related: [13, 14, 16, 17]
+    related: [5,6,8,9]
 },
 {
     id: 4,
@@ -154,7 +154,7 @@ const vehicleData = {
         'images/Japan/Toyota/Land Cruiser/Land Cruiser-4.jpg',
         'images/Japan/Toyota/Land Cruiser/Land Cruiser-5.jpg'
     ],
-    related: [1,3,5,7]
+    related: [1,3,5,8]
 },
 {
     id: 5,
@@ -175,7 +175,7 @@ const vehicleData = {
         'images/Japan/Toyota/Passo/Passo-5.jpg'
         
     ],
-    related: [1,3,6,7]
+    related: [1,3,6,9]
 },
        {
     id: 6,
@@ -197,28 +197,7 @@ const vehicleData = {
     ],
     related: [1,2,3,4]
 },
-   
-{
-    id: 7,
-    country: 'Japan',
-    make: 'Toyota',
-    model: 'Alphard',
-    grade: 'Z',
-    year: 2024,
-    price: 56500,
-    mileage: '150 km',
-    transmission: 'Automatic',
-    image: 'images/Japan/Toyota/Alphard/Alphard-1.jpg',
-    thumbnails: [
-        'images/Japan/Toyota/Alphard/Alphard-1.jpg',
-        'images/Japan/Toyota/Alphard/Alphard-2.jpg',
-        'images/Japan/Toyota/Alphard/Alphard-3.jpg',
-        'images/Japan/Toyota/Alphard/Alphard-4.jpg',
-        'images/Japan/Toyota/Alphard/Alphard-5.jpg'  
-    ],
-    related: [1,3,5,7]
-},
-       {
+    {
     id: 8,
     country: 'Japan',
     make: 'Honda',
@@ -250,7 +229,7 @@ const vehicleData = {
         'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
         'images/Japan/Honda/Civic-EK4/Civic-EK4-2.jpg'
     ],
-    related: [2, 5, 7, 8]
+    related: [2, 5, 4, 8]
 }
 
 
@@ -270,6 +249,7 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
 
 
