@@ -226,7 +226,7 @@ const vehicleData = {
     grade: 'Vi',
     year: 1995,
     price: "Ask", // you can fill this in
-    mileage: null, // if available
+    mileage: "Ask", // if available
     transmission: 'FAT (Automatic)',
     image: 'images/Japan/Honda/Civic/Civicc-1.jpg',
     thumbnails: [
@@ -243,7 +243,7 @@ const vehicleData = {
     grade: 'SiR (EK4)',
     year: 1998,
     price: "Ask", // fill in later
-    mileage: null, // add if available
+    mileage: "Ask", // add if available
     transmission: 'F5 (Manual)',
     image: 'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
     thumbnails: [
@@ -270,6 +270,7 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
 
 
