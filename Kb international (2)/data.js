@@ -228,10 +228,10 @@ const vehicleData = {
     price: "Ask", // you can fill this in
     mileage: null, // if available
     transmission: 'FAT (Automatic)',
-    image: 'images/Japan/Honda/Civic/Civic-1.jpg',
+    image: 'images/Japan/Honda/Civic/Civicc-1.jpg',
     thumbnails: [
-        'images/Japan/Honda/Civic/Civic-3.jpg',
-        'images/Japan/Honda/Civic/Civic-2.jpg'
+        'images/Japan/Honda/Civic/Civicc-1.jpg',
+        'images/Japan/Honda/Civic/Civicc-2.jpg'
     ],
     related: [2, 4, 6, 9]
 },
@@ -270,6 +270,7 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
 
 
