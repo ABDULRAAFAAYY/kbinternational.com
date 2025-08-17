@@ -230,7 +230,7 @@ const vehicleData = {
     transmission: 'FAT (Automatic)',
     image: 'images/Japan/Honda/Civic/Civic-1.jpg',
     thumbnails: [
-        'images/Japan/Honda/Civic/Civic-1.jpg',
+        'images/Japan/Honda/Civic/Civic-3.jpg',
         'images/Japan/Honda/Civic/Civic-2.jpg'
     ],
     related: [2, 4, 6, 8]
@@ -270,6 +270,7 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
 
 
