@@ -228,9 +228,6 @@ const vehicleData = {
     price: "Ask", // you can fill this in
     mileage: null, // if available
     transmission: 'FAT (Automatic)',
-    color: 'Silver',
-    engine: '1,500 cc',
-    drive: 'FF',
     image: 'images/Japan/Honda/Civic/Civic-1.jpg',
     thumbnails: [
         'images/Japan/Honda/Civic/Civic-1.jpg',
@@ -248,10 +245,6 @@ const vehicleData = {
     price: Ask, // fill in later
     mileage: null, // add if available
     transmission: 'F5 (Manual)',
-    color: 'Black',
-    engine: '1,600 cc',
-    drive: 'FF',
-    features: ['AC'],
     image: 'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
     thumbnails: [
         'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
@@ -277,4 +270,5 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
