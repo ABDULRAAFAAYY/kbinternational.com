@@ -242,7 +242,7 @@ const vehicleData = {
     model: 'Civic',
     grade: 'SiR (EK4)',
     year: 1998,
-    price: Ask, // fill in later
+    price: "Ask", // fill in later
     mileage: null, // add if available
     transmission: 'F5 (Manual)',
     image: 'images/Japan/Honda/Civic-EK4/Civic-EK4-1.jpg',
@@ -270,5 +270,6 @@ const vehicleData = {
 
 // Make data globally available
 window.vehicleData = vehicleData;
+
 
 
